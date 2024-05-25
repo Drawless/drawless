@@ -8,7 +8,7 @@ export default function Modal(){
                 <div className="flex items-center justify-center w-12 h-12 rounded-full bg-slate-100 cursor-help">
                     <Info color="#4F46E5" weight="bold" size={24} />
                 </div>
-                <div className="cursor-pointer rounded-full hover:bg-gray-100">
+                <div className="flex items-center justify-center h-8 w-8 rounded-full cursor-pointer hover:bg-gray-100">
                     <X color="#475569" weight="bold" size={24} />
                 </div>
             </div>
