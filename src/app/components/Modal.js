@@ -2,11 +2,12 @@ import Image from 'next/image'
 import { Info, X, User, Question } from "@phosphor-icons/react/dist/ssr"
 import { ButtonContained, ButtonOutlined } from "./Button"
 import image from "../../../public/image.jpg"
+
 export function ModalBasic(){
     const title="Insert Your Modal Title"
     const text="A lazy fox jumps over the bloody cyborg, gets its data stolen to the cybernet."
     return(
-        <div className="min-h-[280px] w-[500px] rounded-3xl shadow-lg p-6 bg-white">
+        <div className="min-h-[280px] min-w-[500px] rounded-3xl shadow-lg p-6 bg-white">
             <div className="flex justify-between">
                 <div className="flex items-center justify-center w-12 h-12 rounded-full bg-slate-100 cursor-help">
                     <Info color="#4F46E5" weight="bold" size={24} />
@@ -35,7 +36,7 @@ export function ModalImage(){
     const title="Insert Your Modal Title"
     const text="A lazy fox jumps over the bloody cyborg, gets its data stolen to the cybernet."
     return(
-        <div className="min-h-[280px] w-[500px] rounded-3xl shadow-lg p-6 bg-white">
+        <div className="min-h-[280px] min-w-[500px] rounded-3xl shadow-lg p-6 bg-white">
             <div className="flex justify-between">
                 <div className="flex items-center justify-center w-12 h-12 rounded-full bg-slate-100 cursor-help">
                     <Info color="#4F46E5" weight="bold" size={24} />
@@ -67,7 +68,7 @@ export function ModalTextInput(){
     const title="Insert Your Modal Title"
     const text="A lazy fox jumps over the bloody cyborg, gets its data stolen to the cybernet."
     return(
-        <div className="min-h-[280px] w-[500px] rounded-3xl shadow-lg p-6 bg-white">
+        <div className="min-h-[280px] min-w-[500px] rounded-3xl shadow-lg p-6 bg-white">
             <div className="flex justify-between">
                 <div className="flex items-center justify-center w-12 h-12 rounded-full bg-slate-100 cursor-help">
                     <Info color="#4F46E5" weight="bold" size={24} />
