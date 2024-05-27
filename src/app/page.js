@@ -1,8 +1,7 @@
-
-import { ArrowRight } from "@phosphor-icons/react/dist/ssr"
-import PrismLoader from "./drawless/utils/PrismLoader";
-import Navigation from "./drawless/ui/Navigation";
-import { ModalBasic, ModalImage, ModalTextInput } from "../components/Modal";
+import { ModalBasic, ModalImage, ModalTextInput } from "./components/Modal";
+import Notification from "./components/Notification";
+import { ArrowRight, Info, X } from "@phosphor-icons/react/dist/ssr"
+import PrismLoader from "./drawless/PrismLoader";
 
 export default function Home() {
 
@@ -18,7 +17,7 @@ export default function Home() {
             <div className="flex flex-col space-y-10">
                 <div className="w-full flex flex-col">
                     <div className="w-full flex flex-row justify-between space-x-8">
-                        <ModalBasic className="w-full" />
+                        <Notification color="gray" />
                         <pre className="language-ts w-full">
                             <code className="language-ts">
                                 {code}
@@ -28,7 +27,7 @@ export default function Home() {
                 </div>
                 <div className="w-full flex flex-col">
                     <div className="w-full flex flex-row justify-between space-x-8">
-                        <ModalTextInput className="w-full" />
+                        <Notification color="indigo" />
                         <pre className="language-ts w-full">
                             <code className="language-ts">
                                 {code}
@@ -38,7 +37,47 @@ export default function Home() {
                 </div>
                 <div className="w-full flex flex-col">
                     <div className="w-full flex flex-row justify-between space-x-8">
-                        <ModalImage className="w-full" />
+                        <Notification color="green" />
+                        <pre className="language-ts w-full">
+                            <code className="language-ts">
+                                {code}
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+                <div className="w-full flex flex-col">
+                    <div className="w-full flex flex-row justify-between space-x-8">
+                        <Notification color="red" />
+                        <pre className="language-ts w-full">
+                            <code className="language-ts">
+                                {code}
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+                <div className="w-full flex flex-col">
+                    <div className="w-full flex flex-row justify-between space-x-8">
+                        <ModalBasic />
+                        <pre className="language-ts w-full">
+                            <code className="language-ts">
+                                {code}
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+                <div className="w-full flex flex-col">
+                    <div className="w-full flex flex-row justify-between space-x-8">
+                        <ModalTextInput />
+                        <pre className="language-ts w-full">
+                            <code className="language-ts">
+                                {code}
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+                <div className="w-full flex flex-col">
+                    <div className="w-full flex flex-row justify-between space-x-8">
+                        <ModalImage />
                         <pre className="language-ts w-full">
                             <code className="language-ts">
                                 {code}
