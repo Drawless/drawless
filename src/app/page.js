@@ -1,7 +1,7 @@
-import { ModalBasic, ModalImage, ModalTextInput } from "./components/Modal";
-import Notification from "./components/Notification";
-import { ArrowRight, Info, X } from "@phosphor-icons/react/dist/ssr"
-import PrismLoader from "./drawless/PrismLoader";
+import { ModalBasic, ModalImage, ModalTextInput } from "../components/Modal";
+import Notification from "../components/Notification";
+import Navigation from "./drawless/ui/Navigation";
+import PrismLoader from "./drawless/utils/PrismLoader";
 
 export default function Home() {
 
