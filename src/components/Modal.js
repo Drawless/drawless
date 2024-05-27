@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { Info, X, User, Question } from "@phosphor-icons/react/dist/ssr"
 import { ButtonContained, ButtonOutlined } from "./Button"
-import image from "../../../public/image.jpg"
+import image from "../../public/image.jpg"
 export function ModalBasic(){
     const title="Insert Your Modal Title"
     const text="A lazy fox jumps over the bloody cyborg, gets its data stolen to the cybernet."
