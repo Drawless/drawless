@@ -11,11 +11,11 @@ export default function Home() {
     return (
         <div className="flex flex-col space-y-24">
 
-            <Navigation selected={["components", "tooltips"]}  />
+            <Navigation  selected={["components", "alerts"]}  />
 
             <div className="w-full min-h-[1px] bg-slate-200"> </div>
             <div className="flex flex-col space-y-10">
-                <h1 className="text-black">Progress Components Here...</h1>
+                <h1 className="text-black">Notification Components Here...</h1>
             </div>
             <PrismLoader/>
         </div>
