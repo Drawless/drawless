@@ -4,6 +4,7 @@ export function ButtonContained({ text, color }) {
         blue: "bg-blue-600 hover:bg-blue-500",
         green: "bg-green-600 hover:bg-green-500",
         red: "bg-red-600 hover:bg-red-500",
+        black: "bg-black hover:bg-gray-800"
     };
     const selectedColorClass = colorClasses[color] || colorClasses.indigo
     return (
