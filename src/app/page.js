@@ -11,7 +11,7 @@ export default function Home() {
     return (
         <div className="flex flex-col space-y-24">
 
-            <Navigation />
+            <Navigation selected={["components", "notifications"]} />
 
             <div className="w-full min-h-[1px] bg-slate-200"> </div>
             <div className="flex flex-col space-y-10">
