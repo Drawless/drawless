@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
 
-        <div className="w-full min-h-screen bg-slate-100 flex">
+        <div className="w-full min-h-screen bg-white flex">
             
               <div className="p-48 font-plus-jakarta-sans flex flex-col space-y-8 m-auto">
                 {children}
