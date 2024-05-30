@@ -1,9 +1,10 @@
-import { ModalBasic, ModalImage, ModalTextInput } from "../../../components/Modal";
-import Notification from "../../../components/Notification";
 import Navigation from "../../drawless/ui/Navigation";
 import PrismLoader from "../../drawless/utils/PrismLoader";
+import { FileArrowUp
 
-export default function Home() {
+
+ } from "@phosphor-icons/react/dist/ssr"; 
+export default function FileUpload() {
 
     const title="Insert Your Modal Title"
     const text="A lazy fox jumps over the bloody cyborg, gets its data stolen to the cybernet."
@@ -15,7 +16,15 @@ export default function Home() {
 
             <div className="w-full min-h-[1px] bg-slate-200"> </div>
             <div className="flex flex-col space-y-10">
-                <h1 className="text-black">File Upload Components Here...</h1>
+                <div className="flex flex-col items-center space-y-8 border-2 border-slate-200 border-dashed rounded-3xl p-12 cursor-pointer hover:bg-gray-100">
+                    <div className="rounded-full bg-slate-200 p-6">
+                        <FileArrowUp color="#4F46E5" weight="bold" size={38} />
+                    </div>
+                    <div className="flex flex-col space-y-2">
+                        <h2 className="text-slate-500 font-medium"><span className="text-blue-600 font-bold">Click here</span> to upload your file or drag and drop.</h2>
+                        <h2 className="text-slate-400">Supported Format: SVG, JPG, PNG (10mb each)</h2>
+                    </div>
+                </div>
             </div>
             <PrismLoader/>
         </div>
