@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+![Drawless Logo](https://raw.githubusercontent.com/Drawless/drawless/main/public/img/drawless/logo.svg)
 
-First, run the development server:
+# Welcome to Drawless!
+
+Welcome to **Drawless**, your go-to solution for ready-to-use React components! Drawless is an open-source project aimed at simplifying the development process by providing a library of pre-built, customizable React components that you can seamlessly integrate into your applications.
+
+### Key Features
+
+- **Ease of Use**: Quickly add functionality to your projects without the need to develop components from scratch.
+- **Customizable**: Tailor the components to fit your project's unique needs and style.
+- **Comprehensive Library**: A wide variety of components, from basic UI elements to complex, feature-rich modules.
+- **Community Driven**: Contributions and feedback from the community help make Drawless better and more versatile.
+
+### Getting Started
+
+To start using Drawless, simply install the library via npm or yarn, import the components you need, and integrate them into your React project.
 
 ```bash
-npm run dev
+npm install drawless
 # or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+yarn add drawless
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```javascript
+import { ComponentName } from 'drawless';
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+// Use the component in your application
+<ComponentName />
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Contribution
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+We welcome contributions from the community! If you have an idea for a new component, find a bug, or want to improve the existing components, please feel free to open an issue or submit a pull request.
